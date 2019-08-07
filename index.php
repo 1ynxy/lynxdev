@@ -1,7 +1,7 @@
 <html>
 	<?php
 		$title = "TemplarGames";
-		include "head.php";
+		include "bck/head.php";
 		
 		//This file is used as a placeholder to redirect users to the homepage.
 		

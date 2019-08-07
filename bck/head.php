@@ -1,5 +1,5 @@
 <head>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<link type="text/css" rel="stylesheet" href="bck/stylesheet.css">
 	<link href="favicon.ico" rel="icon" type="image/png">
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
 	<title><?php echo $title ?></title>

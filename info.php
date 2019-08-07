@@ -2,11 +2,11 @@
 <html>
 	<?php
 		$title = "PHP Info";
-		include "head.php";
+		include "bck/head.php";
 	?>
 	<body>
 		<div id="wrapper">
-			<?php include 'header.php' ?>
+			<?php include 'bck/header.php' ?>
 
 			<div id="content">
 				<div id="inner">
@@ -18,7 +18,7 @@
 				</div>
 			</div>
 
-			<?php include 'footer.php'; ?>
+			<?php include 'bck/footer.php'; ?>
 		</div>
 	</body>
 </html>

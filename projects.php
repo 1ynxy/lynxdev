@@ -13,11 +13,11 @@
 			$title = $title . " - " . $thisPost;
 		}
 		
-		include "head.php";
+		include "bck/head.php";
 	?>
 	<body>
 		<div id="wrapper">
-			<?php include 'header.php' ?>
+			<?php include 'bck/header.php' ?>
 
 			<div id="content">
 				<div id="inner">
@@ -27,14 +27,14 @@
 							$query = $db->query('SELECT * FROM Projects ORDER BY PostID ASC');
 							$post = $query->fetchArray();
 							while ($post) {
-								include "blogpost.php";
+								include "bck/blogpost.php";
 								$post = $query->fetchArray();
 							}
 						} else {
 							$db = new SQLite3('data.db');
 							$query = $db->query('SELECT * FROM Projects WHERE Name = "' . SQLite3::escapeString($thisPost) . '"');
 							$post = $query->fetchArray();
-							if ($post) include "blogpost.php";
+							if ($post) include "bck/blogpost.php";
 							else { ?><meta http-equiv="refresh" content="0; blog" /><?php }
 						}
 					?>
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 			
-			<?php include 'footer.php'; ?>
+			<?php include 'bck/footer.php'; ?>
 		</div>
 	</body>
 </html>

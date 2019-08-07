@@ -2,11 +2,11 @@
 <html>
 	<?php
 		$title = "Home";
-		include "head.php";
+		include "bck/head.php";
 	?>
 	<body>
 		<div id="wrapper">
-			<?php include 'header.php' ?>
+			<?php include 'bck/header.php' ?>
 
 			<div id="content">
 				<div id="inner">
@@ -20,7 +20,7 @@
 
 							if (!$post) break;
 
-							include "blogpost.php";
+							include "bck/blogpost.php";
 						}
 					?>
 					
@@ -28,7 +28,7 @@
 				</div>
 			</div>
 
-			<?php include 'footer.php'; ?>
+			<?php include 'bck/footer.php'; ?>
 		</div>
 	</body>
 </html>

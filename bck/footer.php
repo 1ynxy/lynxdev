@@ -1,7 +1,7 @@
 <div id="footer">
 	<div id="info">
 		<div id="copyright">
-			<p>© TemplarGames</p>
+			<p>© lynxdev</p>
 		</div>
 	</div>
 </div>
